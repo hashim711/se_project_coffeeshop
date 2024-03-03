@@ -13,4 +13,4 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+In the future this project will have more pages where users can reserve and/or buy books from the Tripleten library by including e-commerce platform. More animations will be added to make it more visually engaging and pleasing.
