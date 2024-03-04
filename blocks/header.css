@@ -11,6 +11,8 @@ header {
   background-position: center;
   background-size: cover;
   position: relative;
+  z-index: 1;
+  box-sizing: border-box;
 }
 
 .header__title {
@@ -20,12 +22,12 @@ header {
   margin: 183px 0 0;
   font-weight: 500;
   letter-spacing: -0.6px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
 }
 
 .header__span-accent {
   display: block;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   color: #2f80ed;
   font-style: italic;
   font-weight: normal;
@@ -39,7 +41,7 @@ header {
   line-height: 30px;
   margin: 28px 0 0;
   font-weight: normal;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
 }
 
@@ -49,6 +51,7 @@ header {
   right: 5px;
   max-width: 646px;
   max-height: 568px;
+  z-index: -1;
 }
 
 .header__footer {
@@ -56,7 +59,7 @@ header {
   justify-content: space-between;
   margin: 0;
   margin-top: auto;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 20px;
@@ -67,8 +70,5 @@ header {
   margin: 0;
   padding: 0;
   margin-top: auto;
-}
-
-.header__paragraph:last-child {
-  box-sizing: border-box;
+  font-weight: normal;
 }
